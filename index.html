@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA_Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-with, initial-scale=1.0">
+        <title>Personal Porfolio website</title>
+        <link rel="stylesheet" href="style.css"></link>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="">
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h2 class="logo">Bill<span>y.</span></h2>
+            <ul id="sidemenu">
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <i class="fa fa-times fa-4x icon-3d" onclick="closemenu()"></i>
+            </ul> 
+            <i class="fa fa-bars fa-4x icon-3d" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>HELLO..</p>
+            <h1>I'm <span>Bill-Daniel</span><br> From COLTECH</h1>
+        </div>
+    </div>
+</div>
+<!--------------about----->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/DSC_0391.JPG">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About <span>Me</span></h1>
+                <p>I am a student of COLTECH Bamenda Cameroon. As well as a Nextern at Nexinch. I have had past experience of computer science in the secondary school. I am an intermediate in graphic design but i am be ready to learn more on web development, mobile app development, graphic design with the help of Nexinch.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------services------>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span>Services</span></h1>
+        <div class="services-list">
+            <div>
+                <h2>graphic design</h2>
+                <p>flyers, cards, logos, text animation.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>Web Design</h2>
+                <p>website creations, register web dormains, design & layout website</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>App design</h2>
+                <p>create programs for smart phones,tablets and computer</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------portfolio------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My <span>Work</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/wefix.jpg">
+                <div class="layer">
+                    <h3>flyers</h3>
+                    <p>A flyer which can be identified and reached out to people around the world.</p>
+                    <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/weblayout.jpg">
+                <div class="layer">
+                    <h3>Layers</h3>
+                    <p>Beautiful design layers for your website which can be identified by people round the world.</p>
+                    <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/inspiration-intro.png">
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>The app that connects you and the talented people around the world</p>
+                    <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>contact</span></h1>
+                <p><i class="fa fa-paper-plane fa-4x icon-3d"></i>billdaniel127@yahoo.com</p>
+                <p><i class="fa fa-whatsapp fa-4x icon-3d"></i>+237672478945</p>
+                <p><i class="fa fa-facebook fa-4x icon-3d"></i>Young Billy</p>
+                <div class="flex-center">
+                    <a href=""><i class="fa fa-paper-plane fa-4x icon-3d"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=10007278653934"><i class="fa fa-facebook fa-4x icon-3d"></i>
+                     <a href="https://wa.me/message/2PMIHIXWIWNMC1"><i class="fa fa-whatsapp fa-4x icon-3d"></i></a>
+                </div>
+                <a href="#top"><i class="fa fa-arrow-up fa-4x icon-3d"></i></a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">send</button>
+                </form>
+            </div> 
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Bill. Made with <i class="fa fa-angellist fa-4x icon-3d"></i> by Bill-Daniel</p>
+    </div>
+</div>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+    </body>
+</html>
