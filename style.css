@@ -319,12 +319,19 @@ nav .fa{
         background-repeat: no-repeat;
     }
     .header-text{
-        margin-top: 30%;
+        margin-top: 70%;
         font-size: 16px;
         color: #fff;
     }
+    .logo{
+        font-size: 20px;
+    }
     .header-text h1{
         font-size: 30px;
+    }
+    .header p{
+        font-size: 18px;
+        margin-bottom: 40px;
     }
     nav .fa{
         display: block;
