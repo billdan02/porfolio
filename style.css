@@ -278,6 +278,7 @@ nav.sticky .menu-btn{
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
+   color: #fff;
  }
  .skills-details .box{
    width: calc(100% / 2 - 20px);
