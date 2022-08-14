@@ -1,84 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA_Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-with, initial-scale=1.0">
-        <title>Personal Porfolio website</title>
-        <link rel="stylesheet" href="style.css"></link>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <a href="">
-    </head>
-    <body>
-<div id="header">
-    <div class="container">
-        <nav>
-            <h2 class="logo">Bill<span>y.</span></h2>
-            <ul id="sidemenu">
-                <li><a href="#header">HOME</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#services">SERVICES</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
-                <li><a href="#contact">CONTACT</a></li>
-                <i class="fa fa-times fa-4x icon-3d" onclick="closemenu()"></i>
-            </ul> 
-            <i class="fa fa-bars fa-4x icon-3d" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-            <p>HELLO..</p>
-            <h1>I'm <span>Bill-Daniel</span><br> From COLTECH</h1>
-        </div>
+<!-- Designined by CodingLab | www.youtube.com/codinglabyt -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Bill<span>y</span></a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
     </div>
-</div>
-<!--------------about----->
-<div id="about">
-    <div class="container">
-        <div class="row">
-            <div class="about-col-1">
-                <img src="images/DSC_0391.JPG">
-            </div>
-            <div class="about-col-2">
-                <h1 class="sub-title">About <span>Me</span></h1>
-                <p>I am a student of COLTECH Bamenda Cameroon. As well as a Nextern at Nexinch. Having some experience in computer science in the secondary school. I am an intermediate in graphic design and I am ready to learn more on web development, mobile app development, graphic design with the help of Nexinch.</p>
-            </div>
-        </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
     </div>
-</div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm </div>
+       <div class="text-three">Bill-<span>Daniel</span></div>
+       <div class="text-four">From COLTECH</div>
+     </div>
+     <div class="button">
+       <button>Hire Me</button>
+     </div>
+   </div>
+ </section>
+<!-- About Section Start -->
+<section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+    <div class="about-details">
+      <div class="left">
+        <img src="images/abot.png" alt="">
+      </div>
+      <div class="right">
+        <div class="topic">Designing Is My Passion</div>
+        <p>I am a student of COLTECH Bamenda Cameroon. As well as a Nextern at Nexinch. I have had past experience of computer science in the secondary school. I am an intermediate in graphic design but i am be ready to learn more on web development, mobile app development, graphic design with the help of Nexinch.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge</div>
+          <div class="experience">
+            <div class="num">1</div>
+            <div class="exp">Year Of <br> Experience</div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">HTML</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">CSS</div>
+            <div class="per">68%</div>
+          </div>
+          <div class="box">
+            <div class="topic">JavScript</div>
+            <div class="per">3%</div>
+          </div>
+          <div class="box">
+            <div class="topic">PHP</div>
+            <div class="per">10%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
 <!--------------services------>
-<div id="services">
-    <div class="container">
-        <h1 class="sub-title">My <span>Services</span></h1>
-        <div class="services-list">
-            <div>
-                <h2>graphic design</h2>
-                <p>flyers, cards, logos, text animation.</p>
-                <a href="#">learn more</a>
-            </div>
-            <div>
-                <h2>Web Design</h2>
-                <p>website creations, register web domains, designs & layout websites</p>
-                <a href="#">learn more</a>
-            </div>
-            <div>
-                <h2>App design</h2>
-                <p>create programs for smart phones,tablets and computer</p>
-                <a href="#">learn more</a>
-            </div>
+<!-- My Services Section Start -->
+<section class="services" id="services">
+    <div class="content">
+      <div class="title"><span> Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop "></i>
         </div>
+        <div class="topic">Web Devlopment</div>
+        <p>website creations, register web dormains, design & layout website</p>
+      </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+        </div>
+        <div class="topic">Graphic Design</div>
+        <p>flyers, cards, logos, text animation. User interfaces on apps and website. Advertisement and commercials</p>
     </div>
-</div>
+      <div class="box">
+        <div class="icon">
+          <i class="fas fa-tablet-alt"></i>
+      </div>
+      <div class="topic">Apps Devlopment</div>
+      <p>create programs for smart phones,tablets and computer. UI/UX design</p>
+    </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-camera-retro"></i>
+        </div>
+        <div class="topic">Photography</div>
+        <p>editorial photography. Magazines, newspapers, supplements. Portrait photography, cook-book photography</p>
+      </div>
+    </div>
+    </div>
+  </section>
 
 <!------------portfolio------>
-<div id="portfolio">
+<div id="works">
     <div class="container">
-        <h1 class="sub-title">My <span>Work</span></h1>
+        <h1 class="sub-title"><span>My Work</span></h1>
         <div class="work-list">
             <div class="work">
                 <img src="images/wefix.jpg">
                 <div class="layer">
                     <h3>flyers</h3>
                     <p>A flyer which can be identified and reached out to people around the world.</p>
-                    <a href="#"><i class="fa fa-arrow-up-right-from-square fa-4x icon-3d"></i></a>
+                    <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
                 </div>
             </div>
             <div class="work">
@@ -86,7 +155,7 @@
                 <div class="layer">
                     <h3>Layers</h3>
                     <p>Beautiful design layers for your website which can be identified by people round the world.</p>
-                    <a href="#"><i class="fa fa-arrow-up-right-from-square fa-4x icon-3d"></i></a>
+                    <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
                 </div>
             </div>
             <div class="work">
@@ -94,7 +163,7 @@
                 <div class="layer">
                     <h3>Social media app</h3>
                     <p>The app that connects you and the talented people around the world</p>
-                    <a href="#"><i class="fa fa-arrow-up-right-from-square fa-4x icon-3d"></i></a>
+                    <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
                 </div>
             </div>
         </div>
@@ -104,34 +173,32 @@
 
 <!--------------contact-------->
 <div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="sub-title"><span>contact</span></h1>
-                <p><i class="fa fa-paper-plane fa-4x icon-3d"></i>billdaniel127@yahoo.com</p>
-                <p><i class="fa fa-whatsapp fa-4x icon-3d"></i>+237672478945</p>
-                <p><i class="fa fa-facebook fa-4x icon-3d"></i>Young Billy</p>
-                <div class="flex-center">
-                    <a href=""><i class="fa fa-paper-plane fa-4x icon-3d"></i></a>
-                    <a href="https://www.facebook.com/profile.php?id=10007278653934"><i class="fa fa-facebook fa-4x icon-3d"></i>
-                     <a href="https://wa.me/message/2PMIHIXWIWNMC1"><i class="fa fa-whatsapp fa-4x icon-3d"></i></a>
-                </div>
-                <a href="#top"><i class="fa fa-arrow-up fa-4x icon-3d"></i>topPage</a>
+    <section class="contact" id="contact">
+        <div class="content">
+          <div class="title"><span>Contact Me</span></div>
+          <div class="text">
+            <div class="topic">Have Any Project?</div>
+            <div class="button">
+                <button>Let's Chat</button>
             </div>
-            <div class="contact-right">
-                <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
-                <button type="submit" class="btn btn2">send</button>
-                </form>
-            </div> 
+                <div class="contact-center">
+                    <p><i class="fas fa-paper-plane"></i>billdaniel127@yahoo.com</p>
+                    <p><i class="fab fa-whatsapp"></i>+237672478945</p>
+                    <p><i class="fab fa-facebook-f"></i>Young Billy</p>
+                    <div class="flex-center">
+                        <a href=""><i class="fas fa-paper-plane"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=10007278653934"><i class="fab fa-facebook"></i>
+                         <a href="https://wa.me/message/2PMIHIXWIWNMC1"><i class="fab fa-whatsapp"></i></a>
+                    </div> 
+          </div>
         </div>
-    </div>
+    </section>
+  
     <div class="copyright">
-        <p>Copyright © Bill. Made with <i class="fa fa-angellist fa-4x icon-3d"></i> by Bill-Daniel</p>
+        <p>Copyright © Bill. Made with <i class="fab fa-angellist"></i> by Bill-Daniel</p>
     </div>
 </div>
+<script src="script.js"></script>
 
 <script>
     var sidemeu = document.getElementById("sidemenu");
