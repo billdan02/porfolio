@@ -515,7 +515,6 @@ nav .fa{
     display: none;
 }
 
-/* Responsive Media Query */
 @media (max-width: 1190px) {
     section .content{
       width: 85%;
