@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Bill<span>y</span></a></div>
+      <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="works.html">Works</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <section>
+    <div id="works">
+      <div class="container">
+        <div class="title"><span>My Work</span></div>
+          <div class="work-list">
+              <div class="works">
+                  <img src="images/wefix.jpg">
+                  <div class="layer">
+                      <h3>flyers</h3>
+                      <p>A flyer which can be identified and reached out to people around the world.</p>
+                      <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
+                  </div>
+              </div>
+              <div class="works">
+                  <img src="images/weblayout.jpg">
+                  <div class="layer">
+                      <h3>Layers</h3>
+                      <p>Beautiful design layers for your website which can be identified by people round the world.</p>
+                      <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
+                  </div>
+              </div>
+              <div class="works">
+                  <img src="images/inspiration-intro.png">
+                  <div class="layer">
+                      <h3>Social media app</h3>
+                      <p>The app that connects you and the talented people around the world</p>
+                      <a href="#"><i class="fa fa-external-link-alt fa-4x icon-3d"></i></a>
+                  </div>
+              </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+      </div>
+  </div>
+  </section>
+  <div class="contact">
+    <div class="copyright">
+        <p>Copyright © Bill. Made with <i class="fab fa-angellist"></i> by Bill-Daniel</p>
+    </div>
+  </div>
+   
+</div>
+<script src="script.js"></script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+    </body>
+</html>

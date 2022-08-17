@@ -6,6 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body{
     background: #080808;
@@ -294,7 +295,7 @@ nav.sticky .menu-btn{
     grid-gap: 40px;
     margin-top: 50px;
 }
-.work{
+.works{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -305,7 +306,7 @@ nav.sticky .menu-btn{
 .sub-title span{
     color: #ff004f;
 }
-.work img{
+.works img{
     width: 100%;
     border-radius: 10px;
     display: block;
@@ -348,10 +349,10 @@ nav.sticky .menu-btn{
     padding: 4px;
     text-align: center;
 }
-.work:hover img{
+.works:hover img{
     transform: scale(1.1);
 }
-.work:hover .layer{
+.works:hover .layer{
     height: 100%;
 }
 .btn{
@@ -434,7 +435,7 @@ nav.sticky .menu-btn{
     padding: 15px 0;
     background: #262626;
     font-weight: 300;
-    margin-top: 20px;
+    margin-bottom: 90px;
     color: #fff;
 }
 .copyright i{
