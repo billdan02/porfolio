@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+    <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Bill<span>y</span></a></div>
+      <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+<!-- About Section Start -->
+<section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+    <div class="about-details">
+      <div class="left">
+        <img src="images/abot.png" alt="">
+      </div>
+      <div class="right">
+        <div class="topic">Designing Is My Passion</div>
+        <p>I am a student of COLTECH Bamenda Cameroon. As well as a Nextern at Nexinch. I have had past experience of computer science in the secondary school. I am an intermediate in graphic design but i am be ready to learn more on web development, mobile app development, graphic design with the help of Nexinch.</p>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+    <div class="copyright">
+        <p>Copyright © Bill. Made with <i class="fab fa-angellist"></i> by Bill-Daniel</p>
+    </div>
+</div>
+<script src="script.js"></script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+
+   </body>
+</html>
