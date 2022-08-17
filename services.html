@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Portfolio website </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Bill<span>y</span></a></div>
+      <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="index.html">Services</a></li>
+          <li><a href="index.html">Works</a></li>
+          <li><a href="index.html">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!--------------services------>
+<!-- My Services Section Start -->
+<section class="services" id="services">
+    <div class="content">
+      <div class="title"><span> Services</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-desktop "></i>
+        </div>
+        <div class="topic">Web Devlopment</div>
+        <p>website creations, register web dormains, design & layout website</p>
+      </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-brush"></i>
+        </div>
+        <div class="topic">Graphic Design</div>
+        <p>flyers, cards, logos, text animation. User interfaces on apps and website. Advertisement and commercials</p>
+    </div>
+      <div class="box">
+        <div class="icon">
+          <i class="fas fa-tablet-alt"></i>
+      </div>
+      <div class="topic">Apps Devlopment</div>
+      <p>create programs for smart phones,tablets and computer. UI/UX design</p>
+    </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-camera-retro"></i>
+        </div>
+        <div class="topic">Photography</div>
+        <p>editorial photography. Magazines, newspapers, supplements. Portrait photography, cook-book photography</p>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  
+    <div class="copyright">
+        <p>Copyright © Bill. Made with <i class="fab fa-angellist"></i> by Bill-Daniel</p>
+    </div>
+</div>
+<script src="script.js"></script>
+
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script>
+    </body>
+</html>
